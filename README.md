@@ -7,7 +7,7 @@
 <img src="src/assets/pictures/product-screenshot.png" width="850px"/>
 </p>
 
-Bookmark management web application
+Bookmarks management web application
 
 ### Built With
 
