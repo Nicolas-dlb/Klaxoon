@@ -1,0 +1,24 @@
+.htmlParser {
+  position: relative;
+  padding-bottom: 3%; /* 16:9 */
+  padding-top: 15px;
+  height: 0;
+  display: flex;
+  align-items: center;
+  width: 95%;
+  justify-content: center;
+  height: 100%;
+}
+
+.htmlParser img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.htmlParser iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

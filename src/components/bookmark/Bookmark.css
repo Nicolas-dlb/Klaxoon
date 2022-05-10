@@ -1,0 +1,38 @@
+.bookmark {
+  background: rgb(237, 237, 237);
+  border-radius: 7px;
+  height: 570px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.bookmark h4 {
+  margin: 10px 0;
+}
+.bookmark img {
+  border-radius: 7px;
+}
+.bookmark button {
+  background: rgb(154, 30, 30);
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 7px;
+  margin: 10px 0px;
+}
+.bookmark .info {
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  .bookmark {
+    width: 45% !important;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .bookmark {
+    width: 30% !important;
+  }
+}

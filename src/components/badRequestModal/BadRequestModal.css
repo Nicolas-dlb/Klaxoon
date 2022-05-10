@@ -1,0 +1,24 @@
+.badRequestModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(51, 49, 49, 0.558);
+  position: fixed;
+  width: 100vw;
+  cursor: pointer;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 7px;
+  width: 20%;
+  height: 20%;
+  text-align: center;
+  padding: 20px;
+}

@@ -1,0 +1,26 @@
+.form {
+  height: 3%;
+  width: 70%;
+  display: flex;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form button {
+  height: 18px;
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+input {
+  outline: none;
+  border-radius: 3px;
+  border: none;
+  width: 100%;
+  height: 16px;
+  padding-left: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}

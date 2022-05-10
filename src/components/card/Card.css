@@ -1,0 +1,27 @@
+.card {
+  display: flex;
+  justify-content: flex-start;
+
+  align-items: center;
+  padding-left: 5%;
+}
+.card .label {
+  margin-right: 10px;
+}
+.card p {
+  margin: 8px 0;
+}
+
+.url {
+  padding-right: 15px;
+  display: block !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80%;
+  text-align: left;
+}
+.url .label {
+  display: inline-block;
+  vertical-align: flex-start;
+}
