@@ -25,5 +25,3 @@ export function useBookmarks(): useBookmarksT {
 
   return { bookmarks, setBookmarks, deleteBookmark, createBookmark };
 }
-
-export default uniqueId;
