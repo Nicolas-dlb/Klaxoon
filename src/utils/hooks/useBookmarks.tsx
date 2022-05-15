@@ -2,7 +2,7 @@ import { useState } from "react";
 import { uniqueId } from "../helpers/helpers";
 import { BookmarkT, useBookmarksT } from "../types/types";
 
-export function useBookmarks(): useBookmarksT {
+export default function useBookmarks(): useBookmarksT {
   const [bookmarks, setBookmarks] = useState<BookmarkT[]>([]);
 
   function deleteBookmark(id: string): void {

@@ -4,7 +4,7 @@ import Form from "../../components/form/Form";
 import Header from "../../components/header/Header";
 import Bookmarks from "../Bookmarks/Bookmarks";
 import getBookmarkData from "../../utils/api/api";
-import { useBookmarks } from "../../utils/hooks/useBookmarks";
+import useBookmarks from "../../utils/hooks/useBookmarks";
 import BadRequestModal from "../../components/badRequestModal/BadRequestModal";
 
 function App(): JSX.Element {
