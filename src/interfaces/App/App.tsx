@@ -9,7 +9,7 @@ import BadRequestModal from "../../components/badRequestModal/BadRequestModal";
 
 function App(): JSX.Element {
   const [url, setUrl] = useState("");
-  const [badRequest, setBadRequest] = useState<boolean>(false);
+  const [badRequest, setBadRequest] = useState<boolean>(true);
   const { bookmarks, createBookmark, deleteBookmark } = useBookmarks();
 
   return (
